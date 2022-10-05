@@ -1,0 +1,69 @@
+*{
+  padding:0px;
+  margin: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbar{
+background-color:#FA2FB5;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  }
+
+li{
+  display: inline-block;
+  margin-left: 10px;
+}
+
+nav a{
+  color:white;
+}
+
+.menu.container a:hover{
+color:#16213E;
+transition: 0.9s;
+}
+
+span{
+  color: #4C0033;
+  font-size: 30px;
+  font-weight:600;
+}
+.container.logo a{
+
+   /***** a changer*****/
+  font-size: 40px;
+  font-weight: 700px;
+  font-family:serif;
+}
+/****img fond a mod***/
+
+section {
+height: 700px;
+background-image:url("https://pixabay.com/it/photos/spazio-di-lavoro-caff%c3%a8-1280538/");
+
+}
+
+
+.about me.aboutme-content.left .img{
+  height: 40px;
+  width: 10px;
+  object-fit:contain;
+  border-radius: 6px
+}
+
+.section2{
+  height: 600px;
+  padding: 10px;
+}
+
+.section2 h2{
+text-align: center;
+font-size: 40px;
+text-decoration: black;
+}
